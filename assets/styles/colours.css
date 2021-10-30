@@ -3,13 +3,14 @@
     --acent: #FBD784;
 
     --white: #FFFFFF;
+    --semiwhite: rgba(255, 255, 255, 0.5);
     --gutter: 50px;
     /* --dark75: */
 }
 
-* {
+/* * {
     border: 1px solid darkorchid;
-}
+} */
 
 body {
     background-color: var(--dark);
@@ -29,4 +30,21 @@ a {
 
 .gradient-man {
     background: linear-gradient(to top, var(--dark) 0 25%, rgba(255, 255, 255, 0));
+}
+
+.textWithLine,
+.button,
+.more>p {
+    color: var(--acent);
+}
+
+.line {
+    height: 2px;
+    width: 5em;
+    background-color: var(--acent);
+    margin-right: var(--gutter);
+}
+
+.copyr {
+    color: var(--semiwhite);
 }
