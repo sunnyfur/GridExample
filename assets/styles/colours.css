@@ -1,0 +1,32 @@
+:root {
+    --dark: #0B1D26;
+    --acent: #FBD784;
+
+    --white: #FFFFFF;
+    --gutter: 50px;
+    /* --dark75: */
+}
+
+* {
+    border: 1px solid darkorchid;
+}
+
+body {
+    background-color: var(--dark);
+    color: var(--white);
+
+}
+
+a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.gradient {
+    background: linear-gradient(-25deg, rgba(255, 255, 255, 0) 25%, var(--dark));
+    opacity: 0.8;
+}
+
+.gradient-man {
+    background: linear-gradient(to top, var(--dark) 0 25%, rgba(255, 255, 255, 0));
+}
