@@ -1,0 +1,12 @@
+:root {
+    --dark: #0B1D26;
+    --acent: #FBD784;
+
+    --white: #FFFFFF;
+    --semiwhite: rgba(255, 255, 255, 0.5);
+    --gutter: 50px;
+    --mobile: 600px;
+    --other: 601px;
+    /* --dark75: */
+
+}
